@@ -14,6 +14,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { DashboardService } from './services/dashboard.service';
 import { DragDropModule} from '@angular/cdk/drag-drop';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { HttpClientModule } from '@angular/common/http';
     DragDropModule,
     HttpClientModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    BrowserAnimationsModule,
+    NoopAnimationsModule
   ],
   providers: [DashboardService],
   bootstrap: [AppComponent]

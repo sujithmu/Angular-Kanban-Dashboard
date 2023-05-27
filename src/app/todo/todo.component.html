@@ -15,14 +15,14 @@
           <div cdkDropListGroup>
               <div class="row">
                   <div class="col-md-4">
-                      <div class="example-container padding-bottom=50% ">
+                      <div class="task-container padding-bottom=50% ">
                           <h2 class="todo-title">To do <span class="task-length" *ngIf="toDotasks.length > 0"> ({{toDotasks.length}})</span></h2>
                           <div 
                               cdkDropList 
                               [cdkDropListData]="toDotasks" 
-                              class="example-list" 
+                              class="task-list" 
                               (cdkDropListDropped)="drop($event)">
-                              <div class="example-box" data-toggle="tooltip" data-placement="top" title="Drag from here" *ngFor="let item of toDotasks; let i = index" cdkDrag>{{item.description}}
+                              <div class="task-box" data-toggle="tooltip" data-placement="top" title="Drag from here" *ngFor="let item of toDotasks; let i = index" cdkDrag>{{item.description}}
                                 <div class="box">
                                   <button mat-icon-button color="warn" (click)="deleteToDoTask(i)">
                                     <mat-icon>delete</mat-icon>
@@ -33,14 +33,14 @@
                       </div>
                   </div>
                   <div class="col-md-4">
-                      <div class="example-container">
+                      <div class="task-container">
                         <h2 class="implementing-title">Implementing <span class="task-length" *ngIf="implementingTasks.length > 0"> ({{implementingTasks.length}})</span></h2>
                         <div 
                         cdkDropList 
                         [cdkDropListData]="implementingTasks" 
-                        class="example-list" 
+                        class="task-list" 
                         (cdkDropListDropped)="drop($event)">
-                          <div class="example-box" data-toggle="tooltip" data-placement="top" title="Drag from here" *ngFor="let item of implementingTasks; let i = index" cdkDrag>{{item.description}}
+                          <div class="task-box" data-toggle="tooltip" data-placement="top" title="Drag from here" *ngFor="let item of implementingTasks; let i = index" cdkDrag>{{item.description}}
                             <div class="box">
                               <button mat-icon-button color="warn" (click)="deleteImplementingTask(i)">
                                 <mat-icon>delete </mat-icon>
@@ -51,14 +51,14 @@
                       </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="example-container">
+                    <div class="task-container">
                       <h2 class="done-title">Done <span class="task-length" *ngIf="doneTasks.length > 0"> ({{doneTasks.length}})</span></h2>
                       <div
                         cdkDropList
                         [cdkDropListData]="doneTasks"
-                        class="example-list"
+                        class="task-list"
                         (cdkDropListDropped)="drop($event)">
-                        <div class="example-box hover-3" data-toggle="tooltip" data-placement="top" title="Drag from here" *ngFor="let item of doneTasks; let i = index" cdkDrag>{{item.description}}
+                        <div class="task-box hover-3" data-toggle="tooltip" data-placement="top" title="Drag from here" *ngFor="let item of doneTasks; let i = index" cdkDrag>{{item.description}}
                           <div class="box">
                             <button mat-icon-button color="warn" (click)="deleteDoneTask(i)">
                               <mat-icon>delete</mat-icon>
