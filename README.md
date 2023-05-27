@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Tasks can be moved between the columns
 
-Tasks can be moved between clumns 'To Do', 'Implementing', 'Done' by drag and drop. Angular material is used for this functionality. Tasks added can be deleted as well.
+Tasks can be moved between columns 'To Do', 'Implementing', 'Done' by drag and drop. Angular material is used for this functionality. Tasks can be deleted as well.
 
 ## Development server
 
