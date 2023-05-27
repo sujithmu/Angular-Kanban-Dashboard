@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
+## Tasks can be moved between the columns
+
+Tasks can be moved between clumns 'To Do', 'Implementing', 'Done' by drag and drop. Angular material is used for this functionality. Tasks added can be deleted as well.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
