@@ -1,0 +1,175 @@
+/* :host .mat-form-field{
+    width:100%; 
+} */
+.example-container {
+    width: 900px;
+    max-width: 100%;
+    margin: 0 25px 25px 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .example-list {
+    border: solid 1px #ccc;
+    min-height: 60px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+  }
+  
+  .example-box {
+    padding: 20px 10px;
+    border-bottom: solid 1px #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    cursor: move;
+    background: white;
+    font-size: 14px;
+  }
+
+  .todo-hover-3 {
+    --c: no-repeat linear-gradient(#d48888 0 0);
+    background: 
+      var(--c)  calc(-101% + var(--p,0%)) 100% / 50.1% var(--p,.08em),
+      var(--c)  calc( 201% - var(--p,0%)) 0    / 50.1% var(--p,.08em);
+    transition:  all 0.2s ease-in;
+  }
+  
+  .todo-hover-3:hover {
+    --p: 101%;
+    --t: 0.3s;
+  }
+
+  /* .implementing-hover-3 {
+    --c: no-repeat linear-gradient(#bdcb62 0 0);
+    background: 
+      var(--c)  calc(-101% + var(--p,0%)) 100% / 50.1% var(--p,.08em),
+      var(--c)  calc( 201% - var(--p,0%)) 0    / 50.1% var(--p,.08em);
+    transition:  all 0.2s ease-in;
+  } */
+  
+  /* .implementing-hover-3:hover {
+    --p: 101%;
+    --t: 0.3s;
+  } */
+
+  /* .done-hover-3 {
+    --c: no-repeat linear-gradient(#d48888 0 0);
+    background: 
+      var(--c)  calc(-101% + var(--p,0%)) 100% / 50.1% var(--p,.08em),
+      var(--c)  calc( 201% - var(--p,0%)) 0    / 50.1% var(--p,.08em);
+    transition:  all 0.2s ease-in;
+  }
+  
+  .done-hover-3:hover {
+    --p: 101%;
+    --t: 0.3s;
+  } */
+  
+  body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    gap: 20px;
+    place-content: center;
+  }
+  
+  h3 {
+    font-family: system-ui, sans-serif;
+    font-size: 3rem;
+    margin:0;
+    cursor: pointer;
+    padding: 0 .07em;
+  }
+  
+  .cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .cdk-drag-placeholder {
+    opacity: 0;
+  }
+  
+  .cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+  }
+  
+  .example-box:last-child {
+    border: none;
+  }
+  
+  .example-list.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+    
+  }
+
+
+.row_alignment {
+  background-color:#f9f9f9;
+}
+
+.btn-add{
+  margin-bottom:10px;
+  margin-left:50px;
+}
+
+.clip-text_eight {
+    background-image: url(https://picsum.photos/480/200?random=6);
+}
+
+.todo-title {
+  margin:0;
+  text-align: center;
+  padding:0;
+  background-color: rgb(208, 133, 133);
+  box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+}
+
+.implementing-title {
+  margin:0;
+  text-align: center;
+  padding:0;
+  background-color: rgb(218, 236, 82);
+  box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+}
+
+.done-title {
+  margin:0;
+  text-align: center;
+  padding:0;
+  background-color: rgb(72, 191, 96);
+  box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+}
+
+span {
+    font-weight: normal;
+}
+
+.btn-edit {
+  color:green
+}
+
+.form-field {
+   padding-left:21px;
+   margin-top:10px;
+}
+
+/* .task-length {
+  float: right;
+  width: 36px;
+  line-height: 27px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid #666;
+  background-color: white;
+} */
