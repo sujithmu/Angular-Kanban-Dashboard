@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Benify-Kanban-Board": {
+    "Kanban-Board": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/benify-kanban-board",
+            "outputPath": "dist/kanban-board",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Benify-Kanban-Board:build:production"
+              "browserTarget": "Kanban-Board:build:production"
             },
             "development": {
-              "browserTarget": "Benify-Kanban-Board:build:development"
+              "browserTarget": "Kanban-Board:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Benify-Kanban-Board:build"
+            "browserTarget": "Kanban-Board:build"
           }
         },
         "test": {
