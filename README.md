@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Live Demo
 
-sujithmu.github.io/kanban-angular-git/
+https://sujithmu.github.io/kanban-angular-git/
 
 ## Tasks can be moved between the columns
 
